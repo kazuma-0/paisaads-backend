@@ -32,7 +32,7 @@ export default class UserSeeder implements Seeder {
     const superAdmin = userRepo.create({
       name: 'Super Admin',
       email: 'superadmin@paisaads.com',
-      phone_number: '9000000001',w
+      phone_number: '9000000001',
       email_verified: true,
       phone_verified: true,
       password: await bcrypt.hash('superadmin123', 10),
